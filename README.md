@@ -10,6 +10,9 @@ Este repositório contém um **sistema de login básico** desenvolvido em **HTML
   - Informar que nenhum campo pode ficar vazio.
   - Confirmar o sucesso do login quando todos os campos estiverem preenchidos.
 
+![TELA DE LOGIN](teladelogin.png)
+![TELA DE CADASTRO](teladecadastro.png)
+
 ## Tecnologias Utilizadas
 
 - **HTML**: Estruturação básica da página web.
