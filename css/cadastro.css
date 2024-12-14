@@ -1,0 +1,68 @@
+#cadastro {
+    display: none;
+    border: 1.5px solid #bbb9b9;
+    border-radius: 20px;
+    padding: 50px 40px;
+    box-shadow: 0 2px 10px rgba(58, 58, 58, 0.345);
+}
+
+.formcadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+.formcadastro input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+    background: #eeee;
+    font-size: 13px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(58, 58, 58, 0.345);
+    width: 260px;
+}
+
+.formcadastro input::placeholder {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 14px;
+    color: gray;
+    padding: 10px 210px;
+}
+
+.formcadastro p {
+    font-size: 13px;
+}
+
+.formcadastro span {
+    text-decoration: underline;
+    color: #5e7bfd;
+    cursor: pointer;
+}
+
+.formcadastro button {
+    padding: 13px 110px;
+    width: 100%;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(58, 58, 58, 0.345);
+    font-size: 14px;
+    background: #ffffff;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.formcadastro button:hover {
+    background: #bb00ff;
+}
+
+.formcadastro .aviso {
+    display: none;
+    color: rgb(254, 101, 101);
+}

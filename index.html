@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="login">
+
+            <form class="formLogin">
+                <h1>Faça seu Log-in</h1>
+
+                <input type="email" name="E-mail" id="loginEmail" placeholder="Seu e-mail">
+                <input type="password" name="Senha" id="loginSenha" placeholder="Sua Senha">
+
+                <p class="aviso" id="loginAviso">Preencha os campos corretamente.</p>
+                <p>Se não possui conta <span id="irCadastro">Cadastre-se agora</span>.</p>
+                
+                <button id="loginContinuar">Continuar</button>
+            </form>
+
+        </div>
+
+        <div id="cadastro">
+
+            <form class="formcadastro">
+                <h1>Faça seu Cadastro</h1>
+
+                <input type="name" name="Name" id="cadastroNome" placeholder="Seu nome">
+                <input type="email" name="E-mail" id="cadastroEmail" placeholder="Seu e-mail">
+                <input type="password" name="Senha" id="cadastroSenha" placeholder="Sua Senha">
+
+                <p class="aviso" id="cadastroAviso">Preencha os campos corretamente.</p>
+
+                <p>Ja possui conta <span id="irLogin">Faça seu login</span>.</p>
+                
+                <button id="cadastroContinuar">Continuar</button>
+            </form>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
